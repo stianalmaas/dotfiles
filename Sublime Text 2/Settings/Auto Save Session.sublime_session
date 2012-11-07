@@ -1,0 +1,545 @@
+{
+	"folder_history":
+	[
+	],
+	"last_window_id": 2,
+	"settings":
+	{
+		"new_window_height": 778.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 1440.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "(filter odd? a)",
+					"file": "/Volumes/Git 1.8.0 Snow Leopard Intel Universal/setup git PATH for non-terminal programs.sh",
+					"file_size": -1,
+					"file_write_time": -1,
+					"settings":
+					{
+						"buffer_size": 15,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/stian/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+					"settings":
+					{
+						"buffer_size": 29349,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/stian/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+					"settings":
+					{
+						"buffer_size": 102,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/stian/dev/repos/dotfiles/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 149,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/Users/stian/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/Default (OSX).sublime-keymap",
+					"settings":
+					{
+						"buffer_size": 4301,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "nREPL server started on port 50579\nREPL-y 0.1.0-beta10\nClojure 1.4.0\n    Exit: Control+D or (exit) or (quit)\nCommands: (user/help)\n    Docs: (doc function-name-here)\n          (find-doc \"part-of-name-here\")\n  Source: (source function-name-here)\n          (user/sourcery function-name-here)\n Javadoc: (javadoc java-object-or-class-here)\nExamples from clojuredocs.org: [clojuredocs or cdoc]\n          (user/clojuredocs name-here)\n          (user/clojuredocs \"ns-here\" \"name-here\")\nuser=> (def a [1 2 3 4 5]))\n(def a [1 2 3 4 5]))\n#'user/a\n#<RuntimeException java.lang.RuntimeException: Unmatched delimiter: )>\n\nuser=> (def a [1 2 3 4 5])\n(def a [1 2 3 4 5])\nRuntimeException Unmatched delimiter: )  clojure.lang.Util.runtimeException (Util.java:170)\n#'user/a\nuser=> a\na\n[1 2 3 4 5]\nuser=> (map #(inc 1) a)\n(map #(inc 1) a)\nArityException Wrong number of args (1) passed to: user$eval310$fn  clojure.lang.AFn.throwArity (AFn.java:437)\n\nuser=> (map #(inc %) a)\n(map #(inc %) a)\n(2 3 4 5 6)\nuser=> ",
+					"settings":
+					{
+						"buffer_size": 993,
+						"line_ending": "Unix",
+						"name": "*REPL* [clojure]",
+						"read_only": true,
+						"scratch": true
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 327.0,
+				"selected_items":
+				[
+					[
+						"packag",
+						"Package Control: Install Package"
+					],
+					[
+						"su",
+						"SublimeREPL: Clojure"
+					],
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"preferen",
+						"Preferences: Key Bindings - Default"
+					]
+				],
+				"width": 494.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/stian/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/stian/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"	//{",
+					"repl",
+					"backquote"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/Volumes/Git 1.8.0 Snow Leopard Intel Universal/setup git PATH for non-terminal programs.sh",
+							"settings":
+							{
+								"buffer_size": 15,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										15,
+										15
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/Users/stian/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+							"settings":
+							{
+								"buffer_size": 29349,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4520,
+										4524
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 1088.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/Users/stian/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+							"settings":
+							{
+								"buffer_size": 102,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										102,
+										102
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/Users/stian/dev/repos/dotfiles/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+							"settings":
+							{
+								"buffer_size": 149,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										149,
+										149
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/Users/stian/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/Default (OSX).sublime-keymap",
+							"settings":
+							{
+								"buffer_size": 4301,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2897,
+										2897
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 28.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 5,
+							"settings":
+							{
+								"buffer_size": 993,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										599,
+										597
+									]
+								],
+								"settings":
+								{
+									"auto_complete": false,
+									"auto_indent": false,
+									"detect_indentation": false,
+									"gutter": false,
+									"history_arrows": true,
+									"indent_subsequent_lines": false,
+									"line_numbers": false,
+									"repl": true,
+									"repl_external_id": "clojure",
+									"repl_id": "b276e5f45aa046caa443b0aee8021bd0",
+									"smart_indent": false,
+									"syntax": "Packages/Clojure/Clojure.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0 78 1440 800 0 0 1440 878 ",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"window_id": 2,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
