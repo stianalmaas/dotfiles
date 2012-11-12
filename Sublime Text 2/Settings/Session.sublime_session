@@ -169,13 +169,10 @@
 					}
 				},
 				{
-					"contents": "{\n	\"auto_upgrade_last_run\": 1352324173,\n	\"installed_packages\":\n	[\n		\"BracketHighlighter\",\n		\"Package Control\",\n		\"SublimeREPL\",\n		\"Pretty JSONs\"\n	]\n}\n",
 					"file": "/Users/stian/dev/repos/dotfiles/Sublime Text 2/Packages/User/Package Control.sublime-settings",
-					"file_size": 132,
-					"file_write_time": 1352324173000000,
 					"settings":
 					{
-						"buffer_size": 150,
+						"buffer_size": 149,
 						"line_ending": "Unix"
 					}
 				},
@@ -202,19 +199,19 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 392.0,
+				"height": 327.0,
 				"selected_items":
 				[
+					[
+						"packag",
+						"Package Control: Install Package"
+					],
 					[
 						"su",
 						"SublimeREPL: Clojure"
 					],
 					[
 						"pack",
-						"Package Control: Install Package"
-					],
-					[
-						"packag",
 						"Package Control: Install Package"
 					],
 					[
@@ -375,15 +372,15 @@
 							"file": "/Users/stian/dev/repos/dotfiles/Sublime Text 2/Packages/User/Package Control.sublime-settings",
 							"settings":
 							{
-								"buffer_size": 150,
+								"buffer_size": 149,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										143,
-										143
+										149,
+										149
 									]
 								],
 								"settings":
@@ -418,7 +415,7 @@
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 28.0,
-								"translation.y": 1006.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"type": "text"
