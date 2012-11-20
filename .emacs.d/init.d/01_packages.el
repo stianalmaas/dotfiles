@@ -30,11 +30,13 @@
 
 
 ;; el-get - see https://github.com/dimitri/el-get
-(setq el-get-dir (expand-file-name "el-get" user-emacs-directory))
+(setq el-get-dir
+      (expand-file-name "el-get" user-emacs-directory))
 
 (add-to-list 'load-path 
              (expand-file-name "el-get/el-get" user-emacs-directory))
-(setq el-get-user-package-directory "~/.emacs.d/packages.d/")
+(setq el-get-user-package-directory
+      (expand-file-name "packages.d" user-emacs-directory))
 
 (unless (require 'el-get nil t)
   (with-current-buffer

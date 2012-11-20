@@ -5,6 +5,7 @@
 		"BracketHighlighter",
 		"Package Control",
 		"Pretty JSON",
-		"SublimeREPL"
+		"SublimeREPL",
+		"Tag"
 	]
 }
