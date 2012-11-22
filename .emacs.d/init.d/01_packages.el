@@ -1,5 +1,4 @@
 (require 'package)
-(require 'local-settings)
 
 (add-to-list 'package-archives 
 	     '("marmalade" . "http://marmalade-repo.org/packages/"))
@@ -22,7 +21,8 @@
                       ;;                      yaml-mode
                       ;;                      tuareg 
                       ;;                      haskell-mode
-                      marmalade 
+                      marmalade
+                      ace-jump-mode
                       ;;                      oddmuse 
                       ;;                      scpaste
                       ))
@@ -59,10 +59,10 @@
 	(:name starter-kit :type marmalade)
 	(:name starter-kit-elisp :type marmalade)
 	(:name starter-kit-bindings :type marmalade)
-        (:name starter-kit-eshell :type
+        (:name starter-kit-eshell :type)
                                         ;	(:name clojure-mode :type elpa)
                                         ;	(:name clojure-test-mode :type elpa)
-	
+               
         ))
 
 
