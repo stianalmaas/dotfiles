@@ -1,5 +1,7 @@
 (require 'package)
 
+(setq url-http-attempt-keepalives nil)
+
 (add-to-list 'package-archives 
 	     '("marmalade" . "http://marmalade-repo.org/packages/"))
 (add-to-list 'package-archives
@@ -23,6 +25,7 @@
                       ;;                      haskell-mode
                       marmalade
                       ace-jump-mode
+                      nrepl
                       ;;                      oddmuse 
                       ;;                      scpaste
                       ))
