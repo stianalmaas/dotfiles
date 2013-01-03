@@ -1,4 +1,10 @@
-// Settings in here override those in "Default/Preferences.sublime-settings", and
-// are overridden in turn by file type specific settings.
 {
+	"font_face": "Ubuntu Mono",
+	"font_size": 10,
+	"http_proxy": "proxy:88",
+	"https_proxy": "proxy:88",
+	"ignored_packages":
+	[
+		"Vintage"
+	]
 }

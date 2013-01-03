@@ -1,0 +1,1061 @@
+{
+	"folder_history":
+	[
+	],
+	"last_window_id": 2,
+	"settings":
+	{
+		"new_window_height": 778.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 1440.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"h",
+						"http_proxy"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "<eventList xmlns:ns2=\"http://messages.dnbnor.no/SHAS/Events/1.0\">\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>AUTOSTASJON</channel>\n		<operatorName>AY01648</operatorName>\n		<operatorKind>ANSATT</operatorKind>\n		<eventType>ValidationCompletedEvent</eventType>\n		<eventDate>2012-11-13T09:16:57.763+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ValidationResult</key>\n				<value>OK</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:16:57.204+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/LOANAPPLICATION</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>AS-DOKSIGN</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>2</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>4</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>16</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:16:57.289+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>AS-DOKSIGN</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>2</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>4</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>16</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>AUTOSTASJON</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>SigningOrderReadyEvent</eventType>\n		<eventDate>2012-11-13T09:17:08.380+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>SigningOrderRef</key>\n				<value>948FC3E44ACAF42D3A364FF96BF078EEEC75101C</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:17:08.843+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/LOANAPPLICATION</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>ESIGNERING</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>3</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>5</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>14</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:17:08.941+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>ESIGNERING</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>3</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>5</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>14</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>AUTOSTASJON</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>SigningOrderCompletedEvent</eventType>\n		<eventDate>2012-11-13T09:23:49.290+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>SigningOrderRef</key>\n				<value>FX121113510005647A</value>\n			</eventData>\n			<eventData>\n				<key>SigningOrderStatus</key>\n				<value>Completed</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:23:50.573+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/LOANAPPLICATION</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>AS-OPPLEGG</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>2</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>6</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>17</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:23:50.641+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>AS-OPPLEGG</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>2</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>6</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>17</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>AUTOSTASJON</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>EffectuationCompletedEvent</eventType>\n		<eventDate>2012-11-13T09:24:01.548+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>EffectuationResult</key>\n				<value>MANUAL</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>AUTOSTASJON</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>EffectuationCompletedEvent</eventType>\n		<eventDate>2012-11-13T09:24:01.647+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/LOANAPPLICATION</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>EffectuationResult</key>\n				<value>MANUAL</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:24:02.611+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>OppleggDb</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>1</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>7</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>7</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:24:02.657+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/LOANAPPLICATION</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>OppleggDb</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>1</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>7</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>7</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>AUTOSTASJON</channel>\n		<operatorName>AY01648</operatorName>\n		<operatorKind>ANSATT</operatorKind>\n		<eventType>ValidationCompletedEvent</eventType>\n		<eventDate>2012-11-13T09:30:53.242+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ValidationResult</key>\n				<value>OK</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:30:54.159+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/LOANAPPLICATION</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>AS-DOKSIGN</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>2</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>11</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>16</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:30:54.270+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>AS-DOKSIGN</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>2</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>11</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>16</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>AUTOSTASJON</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>SigningOrderReadyEvent</eventType>\n		<eventDate>2012-11-13T09:31:04.612+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>SigningOrderRef</key>\n				<value>BDA65BB10FEADF4752E06F6C17B83B04FFD11FCD</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:31:04.919+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/LOANAPPLICATION</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>ESIGNERING</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>3</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>12</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>14</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:31:04.995+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>ESIGNERING</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>3</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>12</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>14</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:32:59.139+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/LOANAPPLICATION</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>AS-OPPLEGG</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>2</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>13</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>17</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>AUTOSTASJON</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>SigningOrderCompletedEvent</eventType>\n		<eventDate>2012-11-13T09:32:59.371+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>SigningOrderRef</key>\n				<value>FX121113510006325A</value>\n			</eventData>\n			<eventData>\n				<key>SigningOrderStatus</key>\n				<value>Completed</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ActivityCreatedEvent</eventType>\n		<eventDate>2012-11-13T09:32:59.194+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ActivityName</key>\n				<value>AS-OPPLEGG</value>\n			</eventData>\n			<eventData>\n				<key>ActivityChannel</key>\n				<value>2</value>\n			</eventData>\n			<eventData>\n				<key>ActivityInstanceId</key>\n				<value>13</value>\n			</eventData>\n			<eventData>\n				<key>ActivityNumber</key>\n				<value>17</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>AUTOSTASJON</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>EffectuationCompletedEvent</eventType>\n		<eventDate>2012-11-13T09:33:01.720+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>EffectuationResult</key>\n				<value>OK</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>AUTOSTASJON</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>EffectuationCompletedEvent</eventType>\n		<eventDate>2012-11-13T09:33:01.778+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/LOANAPPLICATION</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>EffectuationResult</key>\n				<value>OK</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ProcessCompletedEvent</eventType>\n		<eventDate>2012-11-13T09:33:02.520+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/LOANAPPLICATION</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessType</key>\n				<value>IX961231999990027A</value>\n			</eventData>\n		</eventInfo>\n	</event>\n	<event>\n		<customerId>5125038168</customerId>\n		<channel>PROSESSMOTOR</channel>\n		<operatorName>HAK</operatorName>\n		<operatorKind>SYSTEM</operatorKind>\n		<eventType>ProcessCompletedEvent</eventType>\n		<eventDate>2012-11-13T09:33:02.896+01:00</eventDate>\n		<topic>GLOBAL/SHAS01/CUSTOMER</topic>\n		<caseId>FX121113510005489A</caseId>\n		<eventInfo>\n			<eventData>\n				<key>CustomerId</key>\n				<value>5125038168</value>\n			</eventData>\n			<eventData>\n				<key>CaseId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessInstanceId</key>\n				<value>FX121113510005489A</value>\n			</eventData>\n			<eventData>\n				<key>ProcessType</key>\n				<value>IX961231999990027A</value>\n			</eventData>\n		</eventInfo>\n	</event>\n</eventList>",
+					"file": "/C/stian/tmp/tmp.xml",
+					"file_size": 1881,
+					"file_write_time": 129968483039236903,
+					"settings":
+					{
+						"buffer_size": 23274,
+						"line_ending": "Windows",
+						"name": "<?xml version=\"1.0\" encoding=\"iso-8859-1\" ?><tmout"
+					}
+				},
+				{
+					"contents": "<page xmlns=\"http://www.dnbnor.no/portal/page\"><portal-meta><site>DNB_NO</site><site-list/><personalized-list/><role-list/><bank>NOR</bank><from-date>11/23/2010T00:00</from-date><to-date>01/01/2099T00:00</to-date><language>en_EN</language><title>iframe_exit</title><uri-list><uri>/ps/applications/webforms/iframe_exit.html</uri><uri>/apps/besok/onlinecustomer/oniframeexit</uri><uri>/apps/besok/onlinecustomer/oniframecancel</uri><uri>/apps/besok/onlinecustomer/oniframestatus</uri><uri>/apps/besok/bankid/oniframeexit</uri><uri>/apps/besok/bankid/oniframecancel</uri><uri>/apps/besok/bankid/oniframestatus</uri><uri>/apps/besok/program/bankid/oniframeexit</uri><uri>/apps/besok/program/bankid/oniframecancel</uri><uri>/apps/besok/program/bankid/oniframestatus</uri><uri>/ps/besok/ordercard/withpicture</uri><uri>/ps/besok/ordercard/nopicture</uri><uri>/apps/besok_kunde/blikunde/oniframeexit</uri><uri>/apps/besok_kunde/blikunde/oniframecancel</uri><uri>/apps/besok_kunde/blikunde/oniframestatus</uri></uri-list><selected-menu>-1</selected-menu><page-type>NORMAL</page-type><secure-content>true</secure-content></portal-meta><content><html xmlns=\"http://www.w3.org/1999/xhtml\"><head><dynamic id=\"portal_webstat_fragment\"/><meta name=\"area\" content=\"ps\"/><meta name=\"language\" content=\"en_EN\"/><meta name=\"siteid\" content=\"DNB_NO\"/><meta name=\"date\" content=\"2012-11-24T12:24+01:00\"/><meta name=\"keywords\" content=\"iframe_exit\"/><meta name=\"description\" content=\"\"/><meta name=\"securitycontext\" content=\"secure\"/><link rel=\"shortcut icon\" href=\"[resource:portal_favicon_ico]\"/><title>bankid_exit - DNB</title><dynamic id=\"portal_css\"/><dynamic id=\"portal_javascript_fragment\"/><script type=\"text/javascript\"> \n",
+					"file": "/C/stian/tmp/test.html",
+					"file_size": 2025,
+					"file_write_time": 129965751232328714,
+					"settings":
+					{
+						"buffer_size": 1710,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Resources xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n	xsi:noNamespaceSchemaLocation=\"http://repo.sandsli.dnb.no/prosjektdok/xsd/ressursAPI2.xsd\">\n  <ResourceCollection Owner=\"besok_kunde\">\n    <ElementGroup ID=\"besok_kunde\">\n      <Element EditBy=\"Business\" ID=\"portal_webform_bli_kunde_applet_helptext\">\n        <HTMLValue Lang=\"NO\"><![CDATA[<strong>Nå skal du signere avtale(r) med din BankID</strong><ol><li>Åpne dokumentet og se igjennom</li><li>Huk av og klikk på Neste</li><li>Bruk BankID for å signere<br />(engangskode fra kodebrikken og personlig passord)</li></ol>]]></HTMLValue>\n        <HTMLValue Lang=\"EN\"><![CDATA[<strong>Please sign your agreement(s) using your BankID</strong><ol><li>Open and read the document</li><li>Confirm you have read and understood the content. Click on Next</li><li>Use BankID to sign<br />(A one-time code from the code device and your personal password)</li></ol>]]></HTMLValue>\n      </Element>\n</ElementGroup>\n</ResourceCollection>\n</Resources>",
+					"settings":
+					{
+						"buffer_size": 1040,
+						"line_ending": "Windows",
+						"name": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+					}
+				},
+				{
+					"contents": "DCR for åpen Bli kunde\ntemplatedata/webform/mail/data/no_no/privat/kundeservice/webform/blikunde_bankid2\n\nDCR for innlogget Bli kunde\ntemplatedata/webform/application/data/no_no/ps/applikasjoner/webforms/bli_kunde/bli_kunde_ny\n\n\nThis is what you need to know to open an account if you live in norway\ntemplatedata/article/standard/data/no_en/personal/customer-service/new-customer-location-norway\n\n1. Visit branch\ntemplatedata/article/standard/data/no_en/personal/customer-service/location-norway-step1\n\n2. Remember to bring\ntemplatedata/article/standard/data/no_en/personal/customer-service/location-norway-step2\n\n\n\nTest-URL for decode av url-parameter\nhttps://www.dnb.no/kjopfond?productid=KAPFV&nexturl=/segp/ps/appi/person/fond/starte-spareavtale%3FfundId%3D000000135\n\n\n\nPrøvde denne url'en for å se eventer fra eventreceiver:\n\nhttps://www.dnb.no/segp/apps/eventreceiver/storage/getevents/30116339222/\nFår 403 Forbidden.\n\nHer er en som funker, med filter på:\n\nhttp://yasu.sandsli.dnb.no:9084/apps/eventreceiver/storage/getevents/05125038168/%7B%22eventType%22:%22EffectuationCompletedEvent%22,%22topic%22:%22LOANAPPLICATION%22%7D\n\n\n\nhttps://www.dnb.no/kjopfond-spareavtale?productid=LEGITIMERING&nexturl=/ps/appi/person/sph/kjop_fond%23ADNFOND-000000125\n\nhttps://www.dnb.no/kjopfond-spareavtale?productid=LEGITIMERING&nexturl=/ps/appi/person/sph/kjop_fond#ADNFOND-000000125\n\n\nhttp://prod-shas/services/bam/1.0/service/\n\ntemplatedata/webform/application/data/no_no/ps/applikasjoner/webforms/besok/loan/bolig/soknad",
+					"settings":
+					{
+						"buffer_size": 1516,
+						"line_ending": "Windows",
+						"name": "DCR for åpen Bli kunde"
+					}
+				},
+				{
+					"file": "/C/dnb/prosess/utv/pubcontent/dnb/no_no_secure_PM/ps/applikasjoner/webforms/besok/loan/bolig/soknad.pp",
+					"settings":
+					{
+						"buffer_size": 118675,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/C/Program Files (x86)/JetBrains/IntelliJ IDEA 10.5.4/bin/idea.properties",
+					"settings":
+					{
+						"buffer_size": 5481,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/C/Program Files (x86)/JetBrains/IntelliJ IDEA 123.23/bin/idea.properties",
+					"settings":
+					{
+						"buffer_size": 7336,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/ab85615/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 393,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/C/Users/ab85615/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 305,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "2012-11-15 09:57:44,554 thrId=\"WebContainer : 2\" lLv=ERROR uid=\"13075624799:-\" uri=/apps/besok_kreditt/upload/loanapp/approve;client=10.226.13.82;session=2_anQmjVC0zooNhl2e6NusQ jLoc=\"no.dnb.besok.kreditt.attach.impl.services.SharepointFileRepository\" jLocL=98 WSN=\"www.dnb.no-webseald-taru\" l4jMess=[[[session: 2_anQmjVC0zooNhl2e6NusQ, server: Migiwa-Nor-Segp-Sec-Commonapps-1-1] [CIP: 10.226.13.82] [WSN: www.dnb.no-webseald-taru] [8:lanesoknad.attachment] Unable to store attachments in Sharepoint. ]]\norg.springframework.ws.soap.client.SoapFaultClientException: An error occured adding metadata to document. (WA5756253)\n        at org.springframework.ws.soap.client.core.SoapFaultMessageResolver.resolveFault(SoapFaultMessageResolver.java:37)\n        at org.springframework.ws.client.core.WebServiceTemplate.handleFault(WebServiceTemplate.java:774)\n        at org.springframework.ws.client.core.WebServiceTemplate.doSendAndReceive(WebServiceTemplate.java:600)\n        at org.springframework.ws.client.core.WebServiceTemplate.sendAndReceive(WebServiceTemplate.java:537)\n        at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:384)\n        at org.springframework.ws.client.core.WebServiceTemplate.marshalSendAndReceive(WebServiceTemplate.java:378)\n        at no.dnb.besok.kreditt.appnet.impl.SharepointServiceImpl.storeAttachments(SharepointServiceImpl.java:55)\n        at no.dnb.besok.kreditt.attach.impl.services.SharepointFileRepository.store(SharepointFileRepository.java:96)\n        at no.dnbnor.portal.services.fileupload.internal.FileUploadController.approve(FileUploadController.java:275)\n        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)\n        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)\n        at java.lang.reflect.Method.invoke(Method.java:597)\n        at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)\n        at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)\n        at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)\n        at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)\n        at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)\n        at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)\n        at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)\n        at javax.servlet.http.HttpServlet.service(HttpServlet.java:738)\n        at javax.servlet.http.HttpServlet.service(HttpServlet.java:831)\n        at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1657)\n        at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1597)\n        at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:131)\n        at no.dnbnor.portal.core.components.wrappers.SafeHttpFilter.doFilter(SafeHttpFilter.java:119)\n        at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:188)\n        at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:116)\n        at no.dnbnor.portal.core.components.wrappers.RequestRateThrottleFilter.doFilterWhenNotBlockingRequest(RequestRateThrottleFilter.java:159)\n        at no.dnbnor.portal.core.components.wrappers.RequestRateThrottleFilter.useCounterForBlockingRequestCalls(RequestRateThrottleFilter.java:90)\n        at no.dnbnor.portal.core.components.wrappers.RequestRateThrottleFilter.doFilter(RequestRateThrottleFilter.java:78)\n        at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:188)\n        at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:116)\n        at com.ibm.ws.webcontainer.filter.WebAppFilterChain._doFilter(WebAppFilterChain.java:77)\n        at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:908)\n        at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:934)\n        at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:502)\n        at com.ibm.ws.webcontainer.servlet.ServletWrapperImpl.handleRequest(ServletWrapperImpl.java:179)\n        at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:3935)\n        at com.ibm.ws.webcontainer.webapp.WebGroup.handleRequest(WebGroup.java:276)\n        at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:931)\n        at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1583)\n        at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:186)\n        at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:452)\n        at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:511)\n        at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:305)\n        at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:83)\n        at com.ibm.ws.tcp.channel.impl.WorkQueueManager.requestComplete(WorkQueueManager.java:557)\n        at com.ibm.ws.tcp.channel.impl.WorkQueueManager.attemptIO(WorkQueueManager.java:607)\n        at com.ibm.ws.tcp.channel.impl.WorkQueueManager.workerRun(WorkQueueManager.java:984)\n        at com.ibm.ws.tcp.channel.impl.WorkQueueManager$Worker.run(WorkQueueManager.java:1069)\n        at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1604)\n2012-11-15 10:02:04,006 thrId=\"WebContainer : 0\" lLv=INFO uid=\"13075624799:-\" uri=/apps/besok_kreditt/lan/files/list;client=10.226.13.82;session=2_anQmjVC0zooNhl2e6NusQ jLoc=\"INFOLOGGER\" jLocL=21 WSN=\"www.dnb.no-webseald-taru\" l4jMess=[[[session: 2_anQmjVC0zooNhl2e6NusQ, server: Migiwa-Nor-Segp-Sec-Commonapps-1-1] [CIP: 10.226.13.82] [WSN: www.dnb.no-webseald-taru] Trying to transform header : javax.xml.bind.util.JAXBSource@b61b61 ]]\n2012-11-15 10:06:03,763 thrId=\"WebContainer : 0\" lLv=ERROR uid=\"13075624799:-\" uri=/apps/besok_kreditt/lan/soknad/populate;client=10.226.13.82;session=2_anQmjVC0zooNhl2e6NusQ jLoc=\"no.dnbnor.lanesoknad.mapper.XMLObjectMapper\" jLocL=141 WSN=\"www.dnb.no-webseald-taru\" l4jMess=[[[session: 2_anQmjVC0zooNhl2e6NusQ, server: Migiwa-Nor-Segp-Sec-Commonapps-1-1] [CIP: 10.226.13.82] [WSN: www.dnb.no-webseald-taru] [12:LanesoknadObjectMapper] Unable to resolve handler class: no.dnb.besok.kreditt.lan.impl.mapping.ObjectValueEvaluator ]]\n\n2012-11-15 10:06:03,763 thrId=\"WebContainer : 0\" lLv=ERROR uid=\"13075624799:-\" uri=/apps/besok_kreditt/lan/soknad/populate;client=10.226.13.82;session=2_anQmjVC0zooNhl2e6NusQ jLoc=\"no.dnbnor.lanesoknad.mapper.XMLObjectMapper\" jLocL=141 WSN=\"www.dnb.no-webseald-taru\" l4jMess=[[[session: 2_anQmjVC0zooNhl2e6NusQ, server: Migiwa-Nor-Segp-Sec-Commonapps-1-1] [CIP: 10.226.13.82] [WSN: www.dnb.no-webseald-taru] [12:LanesoknadObjectMapper] Unable to resolve handler class: no.dnb.besok.kreditt.lan.impl.mapping.ObjectValueEvaluator ]]\njava.lang.ClassCastException\n        at java.lang.Class.cast(Class.java:2990)\n        at no.dnbnor.lanesoknad.mapper.XMLObjectMapper.resolveClass(XMLObjectMapper.java:134)\n        at no.dnbnor.lanesoknad.mapper.XMLObjectMapper.processMappings(XMLObjectMapper.java:81)\n        at no.dnbnor.lanesoknad.mapper.XMLObjectMapper.processMappingNodes(XMLObjectMapper.java:122)\n        at no.dnbnor.lanesoknad.mapper.XMLObjectMapper.internalMap(XMLObjectMapper.java:73)\n        at no.dnbnor.lanesoknad.mapper.XMLObjectMapper.map(XMLObjectMapper.java:57)\n        at no.dnbnor.lanesoknad.mapper.XMLObjectMapper.map(XMLObjectMapper.java:49)\n        at no.dnb.besok.kreditt.lan.impl.service.FelixServiceImpl.executeObjectMapper(FelixServiceImpl.java:261)\n        at no.dnb.besok.kreditt.lan.impl.service.FelixServiceImpl.loadFromStorage(FelixServiceImpl.java:139)\n        at no.dnb.besok.kreditt.lan.controller.MortageInitController.init(MortageInitController.java:65)\n        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)\n        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)\n        at java.lang.reflect.Method.invoke(Method.java:597)\n        at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:176)\n        at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)\n        at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)\n        at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)\n        at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)\n        at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)\n        at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:789)\n        at javax.servlet.http.HttpServlet.service(HttpServlet.java:738)\n        at javax.servlet.http.HttpServlet.service(HttpServlet.java:831)\n        at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1657)\n        at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1597)\n        at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:131)\n        at no.dnbnor.portal.core.components.wrappers.SafeHttpFilter.doFilter(SafeHttpFilter.java:119)\n        at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:188)\n\n\n2012-11-15 10:06:03,770 thrId=\"WebContainer : 0\" lLv=ERROR uid=\"13075624799:-\" uri=/apps/besok_kreditt/lan/soknad/populate;client=10.226.13.82;session=2_anQmjVC0zooNhl2e6NusQ jLoc=\"no.dnbnor.lanesoknad.mapper.ObjectMapper\" jLocL=80 WSN=\"www.dnb.no-webseald-taru\" l4jMess=[[[session: 2_anQmjVC0zooNhl2e6NusQ, server: Migiwa-Nor-Segp-Sec-Commonapps-1-1] [CIP: 10.226.13.82] [WSN: www.dnb.no-webseald-taru] [5:LanesoknadObjectMapper] Supplied invocation handler was null. Unable to perform insert for context: sourcePath=tilknyttet_kundenr, targetPath=medsokerpartner ]]\n\n\n\n\n\n\n\n\n2012-11-15 12:25:40,070 thrId=\"WebContainer : 2\" lLv=WARN uid=\"10108037798:-\" uri=/apps/besok_kunde/blikunde/process;client=10.196.35.85;session=NUZjHzZ-lvnEkK-t7AHsn59 jLoc=\"no.dnbnor.blikunde.web.contexts.steps.preparereceipt.PrepareReceiptPageImpl\" jLocL=180 WSN=\"www.dnb.no-webseald-karu\" l4jMess=[[[session: NUZjHzZ-lvnEkK-t7AHsn59, server: Migiwa-Nor-Segp-Sec-Commonapps-1-1] [CIP: 10.196.35.85] [WSN: www.dnb.no-webseald-karu] [27001:blikunde_app] Effectuation result was signaled as [MANUAL] ]]\n2012-11-15 12:25:40,073 thrId=\"WebContainer : 2\" lLv=WARN uid=\"10108037798:-\" uri=/apps/besok_kunde/blikunde/process;client=10.196.35.85;session=NUZjHzZ-lvnEkK-t7AHsn59 jLoc=\"no.dnbnor.blikunde.web.contexts.steps.preparereceipt.PrepareReceiptPageImpl\" jLocL=143 WSN=\"www.dnb.no-webseald-karu\" l4jMess=[[[session: NUZjHzZ-lvnEkK-t7AHsn59, server: Migiwa-Nor-Segp-Sec-Commonapps-1-1] [CIP: 10.196.35.85] [WSN: www.dnb.no-webseald-karu] [27008:blikunde_app] Prosessplattform says: Manual processing needed. ]]\n\n\n",
+					"settings":
+					{
+						"buffer_size": 11745,
+						"line_ending": "Windows",
+						"name": "2012-11-15 09:57:44,554 thrId=\"WebContainer : 2\" l"
+					}
+				},
+				{
+					"contents": "» 	25/11/2012 21:10:50.440 	\n\n2012-11-25 21:10:50,440 thrId=\"WebContainer : 5\" ip=\"83.243.236.65\" srvN=\"Noto-Nor-Segp-Sec-Commonapps-1-1\" siteN=\"www.dnb.no:6443\" https=\"true\" sessId=\"DNB_NO-A898C7346864BBBC9F20747951DD0327\" uid=\"19018540307:-\" bank=\"NOR\" site=\"DNB_NO\" lang=\"nb_NO\" meth=\"POST\" uri=\"/apps/bsfors/paiduppolicy/populate\" qry=\"-\" scStatus=\"\" scBytes=\"\" cntLen=\"531\" respT=\"568\" ua=\"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:17.0) Gecko/17.0 Firefox/17.0\" cookies=\"portallanguage=DNB_NO=NO;usercontext=rolecustomer=notCustomer:location_region=MORE+OG+ROMSDAL:location_city=ALESUND:location_country=NO:;portalsegmentation=Role=FORSIKRING:;deviceInfo=;portalcampaign=adressevask_kampanje=DONE::;webid=ff0659a3-210d-4af4-b2b3-f308f096f996;portal_persistent=%7B%22webid%22%3A%22ff0659a3-210d-4af4-b2b3-f308f096f996%22%7D;NorSegdOpSites1SessionID=0000v4baN8O7PeLauka5eTJCoJu:FYkrvozT;portal_scriptable=%7B%22portallanguage%22%3A%22DNB_NO%3DNO%22%2C%22usercontext%22%3A%22rolecustomer%3DnotCustomer%3Alocation_region%3DMORE%2BOG%2BROMSDAL%3Alocation_city%3DALESUND%3Alocation_country%3DNO%3A%22%2C%22portalsegmentation%22%3A%22Role%3DFORSIKRING%3A%22%2C%22deviceInfo%22%3A%22%22%7D;dnbnorsession=DNB_NO-A898C7346864BBBC9F20747951DD0327;dnbnorlanguage=NO;IV_JCT=%2Fsegp;WT_FPC=id=20aff30d508ec5733751353873514971:lv=1353874249310:ss=1353873514971;sp=segment=PRIVATE;NorSegdOpSR1SessionID=0000NG3lTcTLJctTVX9FY7WZ4G7:NM7mrvZz;NorSegpOpSR1SessionID=0000Z_ZBrOdwWQ0Uv_cHBm9ZCol:JChk2eVM;SRCookie=F6468D9FAABBF272F5D5770F94B3B87971A8AA6A;SRUserCookie=4d546b774d5467314e44417a4d44633da431333533383733353539343632a432a4359d58c2819c12138a01fe52fd3ed57bdef8f0d2;srSessionCookie=ij1uhtg4jvMsPKs30lN48+qfxqIdlcpbOd6GeNJchgoUwWm24dEctPiCwa6NbB/P;NorSegdSecSites1SessionID=0000ahFCqqjxFQVWjDVuE05eGMd:FzrMEGpa;portal_non_scriptable=%7B%22portalcampaign%22%3A%22adressevask_kampanje%3DDONE%3A%3A%22%7D;NorSegpSecCustomerInfo1SessionID=0000Ty66a3W4PG8vbKcdDBWtygZ:DtNs3rAY;NorSegpSecEdialog1SessionID=00001pU8QpZ1_Dfk-zD8hyrsHke:iyZUNwiv;NorSegpSecTep1SessionID=0000iG7fPEzekZuBqfpDjW6w2tA:WwppSBt7;NorSegpSecCommonapps1SessionID=0000quzJK63oELwU8AvLbqoGg2k:zAizfhQ5;NorSegdOpCommonapps1SessionID=0000u7b0AgeBRR3RBZfX1wyy8Nk:BxmLQH5c;ACOOKIE=C8ctADgzLjI0My4yMzYuNjUtMzEzNjY5Mzc0NC4zMDI2NDEzNgAAAAAAAAABAAAAKQAAAO16slDmerJQAQAAAAEAAADterJQ5nqyUAEAAAApAAAAITgzLjI0My4yMzYuNjUtMzEzNjY5Mzc0NC4zMDI2NDEzNg--;NorSegdSecCommonapps1SessionID=0000dlUcVk5ugV6DNH-CwkGer8h:cYqftDqM\" ref=\"https://www.dnb.no/segp/apps/bsfors/paiduppolicy?segment=segp\" WSN=\"www.dnb.no_3-webseald-okonai\" appData=\"\" \n\n    host=noto   Options|  \n    sourcetype=portal_request   Options|  \n    source=/var/dnb/splunk/prod1/noto/was7/Noto-Nor-Segp-Sec-Commonapps-1-1/request.log   Options\n\n\n» 	25/11/2012 21:11:16.000 	\n\n83.243.236.65 - 19018540307@dnbnor.no [25/Nov/2012:21:11:16 +0100] \"GET /segp/ps/privat/blibankkunde HTTP/1.1\" 200 25230 \"https://www.dnb.no/segp/apps/bsfors/paiduppolicy?segment=segp\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:17.0) Gecko/17.0 Firefox/17.0\"\n\n\n» 	25/11/2012 21:11:30.000 	\n\n2012-11-25 21:11:30,559 thrId=\"WebContainer : 20\" lLv=WARN uri=/ps/privat/blibankkunde;client=83.243.236.65;session=ahFCqqjxFQVWjDVuE05eGMd jLoc=\"no.dnbnor.sr.campaign.BankIDCampaignDoorkeeper\" jLocL=58 WSN=\"www.dnb.no_3-webseald-okonai\" l4jMess=[[[session: ahFCqqjxFQVWjDVuE05eGMd, server: Nakano-Nor-Segd-Sec-Sites-1-1] [CIP: 83.243.236.65] [WSN: www.dnb.no_3-webseald-okonai] [104561:BIDDoorkeeper] User AuthenticatedUser=19018540307, Hostname=www.dnb.no, AuthDevice=BIDAnnenBank, Number of groups= 3,IVUser=uid=19018540307@dnbnor.no,dc=pm,dc=dnbnor,dc=no,IVServer=www.dnb.no_3-webseald-okonai, Impersonating=false does not have access to bidbest, will not enter bestilling ]]\n\n    host=nakano   Options|  \n    sourcetype=log4j   Options|  \n    source=/var/dnb/splunk/prod1/nakano/was7/Nakano-Nor-Segd-Sec-Sites-1-1/sr/sr.log   Options\n\n\n» 	25/11/2012 21:11:48.000 	\n\n83.243.236.65 - 19018540307@dnbnor.no [25/Nov/2012:21:11:48 +0100] \"GET /segp/apps/besok_kunde/blikunde?productid=BANK&nexturl=/ps/bankkunde HTTP/1.1\" 200 24724 \"https://www.dnb.no/segp/ps/privat/blibankkunde\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:17.0) Gecko/17.0 Firefox/17.0\"\n\n    host=okonai   Options|  \n    sourcetype=access_combined   Options|  \n    source=/var/dnb/splunk/prod1/okonai/PDWeb-www.dnb.no_3_http.log   Options\n\n» 	25/11/2012 21:12:29.000 	\n\n2012-11-25 21:12:29,019 thrId=\"WebContainer : 2\" lLv=WARN uid=\"19018540307:-\" uri=/apps/besok_kunde/blikunde/populate;client=83.243.236.65;session=quzJK63oELwU8AvLbqoGg2k jLoc=\"no.dnbnor.blikunde.web.contexts.steps.initialize.PrepareRegCustomerImpl\" jLocL=96 WSN=\"www.dnb.no_3-webseald-okonai\" l4jMess=[[[session: quzJK63oELwU8AvLbqoGg2k, server: Noto-Nor-Segp-Sec-Commonapps-1-1] [CIP: 83.243.236.65] [WSN: www.dnb.no_3-webseald-okonai] [24006:blikunde_app] Entering BliKunde. Customer [19018540307] ]]\n\n    host=noto   Options|  \n    sourcetype=log4j   Options|  \n    source=/var/dnb/splunk/prod1/noto/was7/Noto-Nor-Segp-Sec-Commonapps-1-1/application.log   Options\n\n» 	25/11/2012 21:12:29.000 	\n\n2012-11-25 21:12:29,189 thrId=\"WebContainer : 2\" lLv=WARN uid=\"19018540307:-\" uri=/apps/besok_kunde/blikunde/populate;client=83.243.236.65;session=quzJK63oELwU8AvLbqoGg2k jLoc=\"no.dnbnor.blikunde.domain.felix.customer.CustomerFactoryImpl\" jLocL=44 WSN=\"www.dnb.no_3-webseald-okonai\" l4jMess=[[[session: quzJK63oELwU8AvLbqoGg2k, server: Noto-Nor-Segp-Sec-Commonapps-1-1] [CIP: 83.243.236.65] [WSN: www.dnb.no_3-webseald-okonai] [12205:blikunde_app] Customer found in Felix ]]\n\n    host=noto   Options|  \n    sourcetype=log4j   Options|  \n    source=/var/dnb/splunk/prod1/noto/was7/Noto-Nor-Segp-Sec-Commonapps-1-1/application.log   Options\n\n» 	25/11/2012 21:12:39.000 	\n\n83.243.236.65 - 19018540307@dnbnor.no [25/Nov/2012:21:12:39 +0100] \"GET /segp/apps/besok_kunde/blikunde/oncancel HTTP/1.1\" 302 0 \"https://www.dnb.no/segp/apps/besok_kunde/blikunde?productid=BANK&nexturl=/ps/bankkunde\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:17.0) Gecko/17.0 Firefox/17.0\"\n\n    host=okonai   Options|  \n    sourcetype=access_combined   Options|  \n    source=/var/dnb/splunk/prod1/okonai/PDWeb-www.dnb.no_3_http.log   Options\n\n» 	25/11/2012 21:12:43.000 	\n\n2012-11-25 21:12:43,469 thrId=\"WebContainer : 4\" lLv=WARN uid=\"19018540307:-\" uri=/apps/besok_kunde/blikunde/oncancel;client=83.243.236.65;session=quzJK63oELwU8AvLbqoGg2k jLoc=\"no.dnbnor.portal.fw.resources.dataaccess.sql.SqlResourceResolver\" jLocL=439 WSN=\"www.dnb.no_3-webseald-okonai\" l4jMess=[[Resource did not exsist portal_webform_config_null resourceContext[AppId: besok_kunde, Bank: NOR, Site: DNB_NO, LanguageCode: nb_NO, Roles: [FORSIKRING], PersonalizedCodes: [ID:ALDER & Value:Alder25_34, ID:Usertype & Value:PERSON]]]]\n\n    host=noto   Options|  \n    sourcetype=log4j   Options|  \n    source=/var/dnb/splunk/prod1/noto/was7/Noto-Nor-Segp-Sec-Commonapps-1-1/portal.log   Options\n\n» 	25/11/2012 21:12:43.000 	\n\n2012-11-25 21:12:43,478 thrId=\"WebContainer : 4\" lLv=WARN uid=\"19018540307:-\" uri=/apps/besok_kunde/blikunde/oncancel;client=83.243.236.65;session=quzJK63oELwU8AvLbqoGg2k jLoc=\"no.dnbnor.portal.core.spring.component.PortalHandlerExceptionResolver\" jLocL=78 WSN=\"www.dnb.no_3-webseald-okonai\" l4jMess=[[[session: quzJK63oELwU8AvLbqoGg2k, server: Noto-Nor-Segp-Sec-Commonapps-1-1] [CIP: 83.243.236.65] [WSN: www.dnb.no_3-webseald-okonai] [2140:portal] Sending error 500. Exception is : org.springframework.web.bind.annotation.support.HandlerMethodInvocationException: Failed to invoke handler method [protected final org.springframework.web.servlet.View no.dnbnor.blikunde.web.SignAppletController.onCancel(no.dnbnor.blikunde.domain.web.WebformModel)]; nested exception is java.lang.IllegalStateException ]]\norg.springframework.web.bind.annotation.support.HandlerMethodInvocationException: Failed to invoke handler method [protected final org.springframework.web.servlet.View no.dnbnor.blikunde.web.SignAppletController.onCancel(no.dnbnor.blikunde.domain.web.WebformModel)]; nested exception is java.lang.IllegalStateException\n	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:181)\n	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.invokeHandlerMethod(AnnotationMethodHandlerAdapter.java:436)\n	at org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter.handle(AnnotationMethodHandlerAdapter.java:424)\n	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:923)\n	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:852)\n	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:882)\n	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:778)\n	at javax.servlet.http.HttpServlet.service(HttpServlet.java:718)\n	at javax.servlet.http.HttpServlet.service(HttpServlet.java:831)\n	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1657)\n	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1597)\n	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:131)\n	at no.dnbnor.portal.core.components.wrappers.SafeHttpFilter.doFilter(SafeHttpFilter.java:119)\n	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:188)\n	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:116)\n	at no.dnbnor.portal.core.components.wrappers.RequestRateThrottleFilter.doFilterWhenNotBlockingRequest(RequestRateThrottleFilter.java:159)\n	at no.dnbnor.portal.core.components.wrappers.RequestRateThrottleFilter.useCounterForBlockingRequestCalls(RequestRateThrottleFilter.java:90)\n	at no.dnbnor.portal.core.components.wrappers.RequestRateThrottleFilter.doFilter(RequestRateThrottleFilter.java:78)\n	at com.ibm.ws.webcontainer.filter.FilterInstanceWrapper.doFilter(FilterInstanceWrapper.java:188)\n	at com.ibm.ws.webcontainer.filter.WebAppFilterChain.doFilter(WebAppFilterChain.java:116)\n	at com.ibm.ws.webcontainer.filter.WebAppFilterChain._doFilter(WebAppFilterChain.java:77)\n	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.doFilter(WebAppFilterManager.java:908)\n	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:934)\n	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:502)\n	at com.ibm.ws.webcontainer.servlet.ServletWrapperImpl.handleRequest(ServletWrapperImpl.java:179)\n	at com.ibm.ws.webcontainer.servlet.CacheServletWrapper.handleRequest(CacheServletWrapper.java:91)\n	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:864)\n	at com.ibm.ws.webcontainer.WSWebContainer.handleRequest(WSWebContainer.java:1583)\n	at com.ibm.ws.webcontainer.channel.WCChannelLink.ready(WCChannelLink.java:186)\n	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:452)\n	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.handleNewRequest(HttpInboundLink.java:511)\n	at com.ibm.ws.http.channel.inbound.impl.HttpInboundLink.processRequest(HttpInboundLink.java:305)\n	at com.ibm.ws.http.channel.inbound.impl.HttpICLReadCallback.complete(HttpICLReadCallback.java:83)\n	at com.ibm.ws.tcp.channel.impl.WorkQueueManager.requestComplete(WorkQueueManager.java:557)\n	at com.ibm.ws.tcp.channel.impl.WorkQueueManager.attemptIO(WorkQueueManager.java:607)\n	at com.ibm.ws.tcp.channel.impl.WorkQueueManager.workerRun(WorkQueueManager.java:984)\n	at com.ibm.ws.tcp.channel.impl.WorkQueueManager$Worker.run(WorkQueueManager.java:1069)\n	at com.ibm.ws.util.ThreadPool$Worker.run(ThreadPool.java:1604)\nCaused by: java.lang.IllegalStateException\n	at no.dnbnor.portal.client.api.webform.WebformModelFactory.checkAccess(WebformModelFactory.java:260)\n	at no.dnbnor.portal.client.api.webform.WebformModelFactory.postCreateModel(WebformModelFactory.java:163)\n	at no.dnbnor.portal.client.api.webform.WebformModelFactory.createScopedModel(WebformModelFactory.java:131)\n	at no.dnbnor.portal.client.api.webform.bind.WebformArgumentResolver.resolveArgument(WebformArgumentResolver.java:59)\n	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.resolveCommonArgument(HandlerMethodInvoker.java:856)\n	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.resolveHandlerArguments(HandlerMethodInvoker.java:311)\n	at org.springframework.web.bind.annotation.support.HandlerMethodInvoker.invokeHandlerMethod(HandlerMethodInvoker.java:171)\n	... 37 more\n\nCollapse back to 10 lines\n\n    host=noto   Options|  \n    sourcetype=log4j   Options|  \n    source=/var/dnb/splunk/prod1/noto/was7/Noto-Nor-Segp-Sec-Commonapps-1-1/portal.log   Options\n\n» 	25/11/2012 21:12:43.000 	\n\n83.243.236.65 - 19018540307@dnbnor.no [25/Nov/2012:21:12:43 +0100] \"GET /portalfront/dnb/error/no/no_tekniskfeil.html HTTP/1.1\" 200 3951 \"https://www.dnb.no/segp/apps/besok_kunde/blikunde?productid=BANK&nexturl=/ps/bankkunde\" \"Mozilla/5.0 (Windows NT 6.1; WOW64; rv:17.0) Gecko/17.0 Firefox/17.0\"\n\n    host=okonai   Options|  \n    sourcetype=access_combined   Options|  \n    source=/var/dnb/splunk/prod1/okonai/PDWeb-www.dnb.no_3_http.log   Options\n\n\n\n\ntemplatedata/webform/application/data/no_no/ps/applikasjoner/webforms/besok/loan/bolig/soknad\n\ntemplatedata/article/standard/data/no_no/ps/applikasjoner/webforms/besok/loan/bolig/vedlegg/vedlegg_top\n",
+					"settings":
+					{
+						"buffer_size": 13463,
+						"line_ending": "Windows",
+						"name": "» 	25/11/2012 21:10:50.440"
+					}
+				},
+				{
+					"file": "/Z/main/internet/dnb/WORKAREA/sitepub/portalfront/dnb/scripts/applications/loan/bolig/vedlegg.js",
+					"settings":
+					{
+						"buffer_size": 14782,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Program Files (x86)/JetBrains/IntelliJ IDEA 12.0/bin/idea.properties",
+					"settings":
+					{
+						"buffer_size": 7330,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/utv/repos/F172-besok_rest/pom.xml",
+					"settings":
+					{
+						"buffer_size": 5471,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/utv/repos/F172-besok/besok-war/src/test/resources/jetty/contexts/portal-tools.xml",
+					"settings":
+					{
+						"buffer_size": 10698,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/utv/repos/F172-besok_rest/besok_rest-war/target/classes/Provider.properties",
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/utv/tools/maven/conf/settings.xml",
+					"settings":
+					{
+						"buffer_size": 3196,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/C/utv/repos/F172-besok_rest/besok_rest-war/target/classes/rebel.xml",
+					"settings":
+					{
+						"buffer_size": 508,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"pack",
+						"Package Control: Install Package"
+					],
+					[
+						"pa",
+						"Package Control: Install Package"
+					],
+					[
+						"pac",
+						"Package Control: Install Package"
+					],
+					[
+						"packag",
+						"Package Control: Install Package"
+					],
+					[
+						"su",
+						"SublimeREPL: Clojure"
+					],
+					[
+						"packa",
+						"Package Control: Install Package"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings - User"
+					],
+					[
+						"preferen",
+						"Preferences: Key Bindings - Default"
+					]
+				],
+				"width": 440.0
+			},
+			"console":
+			{
+				"height": 326.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Z/main/internet/dnb/WORKAREA/sitepub/html/no_no_secure_PM/ps/applikasjoner/webforms/besok/loan/bolig/soknad.pp",
+				"/C/data/.m2/repository/no/dnbnor/portal/portal-dependencies/5.0-SNAPSHOT/portal-dependencies-5.0-20121217.134546-185.pom",
+				"/C/data/.m2/repository/no/dnbnor/portal/portal-dependencies/5.0-SNAPSHOT/portal-dependencies-5.0-SNAPSHOT.pom",
+				"/C/utv/repos/F172-besok/besok-ressursapi/target/ressursapi/jetty/override.xml",
+				"/C/utv/repos/F172-besok/besok-ressursapi/target/ressursapi/jetty/dokprod/besok_dokprod_ws_lookup.xml",
+				"/C/utv/repos/F172-besok/besok-war/src/test/resources/jetty/reauth.properties",
+				"/C/utv/repos/F172-besok_rest/besok_rest-build/pom.xml",
+				"/C/utv/repos/F172-besok_rest/besok_rest-ear/pom.xml",
+				"/C/utv/repos/F172-besok_rest/besok_rest-war/pom.xml",
+				"/C/utv/repos/F172-besok/besok-war/src/test/resources/jetty/jetty-web.xml",
+				"/C/Program Files (x86)/JetBrains/IntelliJ IDEA 12.0/bin/idea.bat",
+				"/C/Program Files (x86)/JetBrains/IntelliJ IDEA 12.0/bin/idea64.exe.vmoptions",
+				"/C/Program Files (x86)/JetBrains/IntelliJ IDEA 10.5.4/bin/idea64.exe.vmoptions",
+				"/C/Program Files (x86)/JetBrains/IntelliJ IDEA 10.5.4/bin/idea.bat",
+				"/C/Windows/System32/drivers/etc/hosts",
+				"/C/Program Files (x86)/JetBrains/IntelliJ IDEA 123.23/bin/idea64.exe.vmoptions",
+				"/C/Program Files (x86)/JetBrains/IntelliJ IDEA 123.23/bin/idea.properties",
+				"/C/Program Files (x86)/JetBrains/IntelliJ IDEA 122.746/bin/idea64.exe.vmoptions",
+				"/C/Users/ab85615/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+				"/C/Users/ab85615/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+				"/C/Users/ab85615/AppData/Roaming/Sublime Text 2/backup/Packages/User/Preferences.sublime-settings",
+				"/Z/main/internet/dnb/WORKAREA/sitepub/html/no_no_secure_PM/ps/applikasjoner/reauth/reauth.pp",
+				"/Z/main/internet/dnb/WORKAREA/sitepub/html/no_no_secure_PM/ps/applikasjoner/reauth/overlay_reauth.pp",
+				"/Z/main/internet/dnb/WORKAREA/sitepub/html/no_no_secure_PM/ps/applikasjoner/reauth/overlay-bankid.pp",
+				"/C/Users/ab85615/AppData/Roaming/Sublime Text 2/backup/Packages/User/Package Control.sublime-settings",
+				"/Z/main/internet/dnb/WORKAREA/sitepub/html/no_no/privat/sparing-og-investering/fond/kombinasjonsfond/logginn-spareavtale.pp",
+				"/Z/main/internet/dnb/WORKAREA/sitepub/html/no_no/privat/sparing-og-investering/aksjer/internetthandel/webforms/bli-kunde-bankid-markets.pp",
+				"/C/dnb/prosess/utv/pubcontent/dnb/no_no_secure_PM/ps/applikasjoner/webforms/bli_kunde/feilmeldinger/aml-markets.pp",
+				"/C/dnb/prosess/utv/pubcontent/dnb/no_no_secure_PM/ps/applikasjoner/webforms/bli_kunde/feilmeldinger/ikke_i_ffod.pp",
+				"/C/dnb/prosess/utv/pubcontent/dnb/no_no_secure_PM/ps/applikasjoner/webforms/bli_kunde/feilmeldinger/ikke_i_ffod-markets.pp",
+				"/C/dnb/prosess/utv/pubcontent/dnb/no_no_secure_PM/ps/applikasjoner/webforms/bli_kunde/feilmeldinger/steg1.pp",
+				"/C/dnb/prosess/utv/pubcontent/dnb/no_no_secure_PM/ps/applikasjoner/webforms/bli_kunde/feilmeldinger/steg1-markets.pp",
+				"/C/dnb/prosess/utv/pubcontent/dnb/no_no_secure_PM/ps/applikasjoner/webforms/bli_kunde/feilmeldinger/steg2.pp",
+				"/C/dnb/prosess/utv/pubcontent/dnb/no_no_secure_PM/ps/applikasjoner/webforms/bli_kunde/feilmeldinger/steg2-markets.pp",
+				"/C/dnb/prosess/utv/pubcontent/dnb/no_no_secure_PM/ps/applikasjoner/webforms/bli_kunde/feilmeldinger/under_18.pp",
+				"/C/dnb/prosess/utv/pubcontent/dnb/no_no_secure_PM/ps/applikasjoner/webforms/bli_kunde/blikunde_modal_ny.pp",
+				"/C/dnb/prosess/utv/pubcontent/dnb/no_no_secure_PM/ps/applikasjoner/webforms/bli_kunde/default_osm_page.pp",
+				"/Z/main/internet/dnb/WORKAREA/sitepub/html/no_no/privat/kundeservice/webform/kjop-fond.pp",
+				"/Z/main/internet/dnb/WORKAREA/sitepub/html/no_no/privat/kundeservice/webform/blikunde-bankID.pp",
+				"/C/dnb/prosess/utv/pubcontent/dnb/no_no_secure_PM/ps/applikasjoner/webforms/bli_kunde/feilmeldinger/aml.pp",
+				"/C/dnb/prosess/utv/pubcontent/dnb/no_no/mittkundeteam.pp",
+				"/C/utv/svn/eventreceiver-trunk/eventreceiver-build/src/main/config/websphere.config.xml",
+				"/Users/stian/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/Default (OSX).sublime-keymap",
+				"/Users/stian/dev/repos/dotfiles/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+				"/Users/stian/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+				"/Users/stian/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+				"/Volumes/Git 1.8.0 Snow Leopard Intel Universal/setup git PATH for non-terminal programs.sh",
+				"/Users/stian/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+				"/Users/stian/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings"
+			],
+			"find":
+			{
+				"height": 35.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"dnbnorapi-server",
+					"onStepChange",
+					"receipt_manual_approved",
+					"kundesok",
+					"URL",
+					"url",
+					"URL",
+					"url",
+					"URL",
+					"url",
+					"URL",
+					"url",
+					"URL",
+					"parameter",
+					"id",
+					"Id",
+					"id",
+					"effectuationResult",
+					"><",
+					"	//{",
+					"repl",
+					"backquote"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 8,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/C/stian/tmp/tmp.xml",
+							"settings":
+							{
+								"buffer_size": 23274,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										21265,
+										21265
+									]
+								],
+								"settings":
+								{
+									"auto_name": "<?xml version=\"1.0\" encoding=\"iso-8859-1\" ?><tmout",
+									"is_xml": true,
+									"syntax": "Packages/XML/XML.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 878.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/stian/tmp/test.html",
+							"settings":
+							{
+								"buffer_size": 1710,
+								"regions":
+								{
+									"TagLint":
+									{
+										"flags": 52,
+										"icon": "dot",
+										"regions":
+										[
+											[
+												0,
+												47
+											]
+										],
+										"scope": "variable.parameter"
+									}
+								},
+								"selection":
+								[
+									[
+										1710,
+										1710
+									]
+								],
+								"settings":
+								{
+									"is_xml": false,
+									"syntax": "Packages/HTML/HTML.tmLanguage",
+									"tab_size": 8,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"settings":
+							{
+								"buffer_size": 1040,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1040,
+										1040
+									]
+								],
+								"settings":
+								{
+									"auto_name": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+									"is_xml": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"settings":
+							{
+								"buffer_size": 1516,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1516,
+										1516
+									]
+								],
+								"settings":
+								{
+									"auto_name": "DCR for åpen Bli kunde",
+									"is_xml": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/C/dnb/prosess/utv/pubcontent/dnb/no_no_secure_PM/ps/applikasjoner/webforms/besok/loan/bolig/soknad.pp",
+							"settings":
+							{
+								"buffer_size": 118675,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										58247,
+										58247
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/HTML/HTML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 9774.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/C/Program Files (x86)/JetBrains/IntelliJ IDEA 10.5.4/bin/idea.properties",
+							"settings":
+							{
+								"buffer_size": 5481,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1332,
+										1332
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Java/JavaProperties.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/C/Program Files (x86)/JetBrains/IntelliJ IDEA 123.23/bin/idea.properties",
+							"settings":
+							{
+								"buffer_size": 7336,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1267,
+										1267
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Java/JavaProperties.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/C/Users/ab85615/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+							"settings":
+							{
+								"buffer_size": 393,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										239,
+										239
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/C/Users/ab85615/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+							"settings":
+							{
+								"buffer_size": 305,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										86,
+										86
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JSON.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"settings":
+							{
+								"buffer_size": 11745,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										7514,
+										7514
+									]
+								],
+								"settings":
+								{
+									"auto_name": "2012-11-15 09:57:44,554 thrId=\"WebContainer : 2\" l",
+									"is_xml": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 8,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 498.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"settings":
+							{
+								"buffer_size": 13463,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										13462,
+										13462
+									]
+								],
+								"settings":
+								{
+									"auto_name": "» 	25/11/2012 21:10:50.440",
+									"is_xml": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 2185.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "/Z/main/internet/dnb/WORKAREA/sitepub/portalfront/dnb/scripts/applications/loan/bolig/vedlegg.js",
+							"settings":
+							{
+								"buffer_size": 14782,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3046,
+										3046
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 985.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 5,
+					"sheets":
+					[
+						{
+							"buffer": 12,
+							"file": "/C/Program Files (x86)/JetBrains/IntelliJ IDEA 12.0/bin/idea.properties",
+							"settings":
+							{
+								"buffer_size": 7330,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2061,
+										2061
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Java/JavaProperties.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 13,
+							"file": "/C/utv/repos/F172-besok_rest/pom.xml",
+							"settings":
+							{
+								"buffer_size": 5471,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"is_xml": true,
+									"syntax": "Packages/XML/XML.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1136.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 14,
+							"file": "/C/utv/repos/F172-besok/besok-war/src/test/resources/jetty/contexts/portal-tools.xml",
+							"settings":
+							{
+								"buffer_size": 10698,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"is_xml": true,
+									"syntax": "Packages/XML/XML.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 15,
+							"file": "/C/utv/repos/F172-besok_rest/besok_rest-war/target/classes/Provider.properties",
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Java/JavaProperties.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 16,
+							"file": "/C/utv/tools/maven/conf/settings.xml",
+							"settings":
+							{
+								"buffer_size": 3196,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1264,
+										1264
+									]
+								],
+								"settings":
+								{
+									"is_xml": true,
+									"syntax": "Packages/XML/XML.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 80.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 17,
+							"file": "/C/utv/repos/F172-besok_rest/besok_rest-war/target/classes/rebel.xml",
+							"settings":
+							{
+								"buffer_size": 508,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"is_xml": true,
+									"syntax": "Packages/XML/XML.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 34.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.506076388889,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,2,3,-1,-1,-1,-1,1079,253,253,1703",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"window_id": 2,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
