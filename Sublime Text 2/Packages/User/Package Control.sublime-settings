@@ -1,12 +1,15 @@
 {
 	"auto_upgrade_last_run": 1357212193,
-	"http_proxy": "proxy:88",
 	"installed_packages":
 	[
 		"Alignment",
 		"BracketHighlighter",
+		"ClojureDocSearch",
+		"Git",
 		"Package Control",
 		"Pretty JSON",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
 		"SublimeREPL",
 		"Tag"
 	],

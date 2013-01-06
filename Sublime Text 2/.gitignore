@@ -4,3 +4,6 @@ Settings/Auto\ Save\ Session.sublime_session
 *.cache
 .DS_Store
 Packages/User/SublimeREPLHistory/*
+Settings/Session.sublime_session
+Packages/Default/Side\ Bar\ Mount\ Point.sublime-menu
+Packages/Default/Side\ Bary.sublime-menu
