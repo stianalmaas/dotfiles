@@ -28,6 +28,7 @@
  
  
 ;;; Commentary:
+;; Taken from https://gist.github.com/gongo/1789605
  
 ;;; Code:
  
