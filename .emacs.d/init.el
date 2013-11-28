@@ -23,12 +23,13 @@
 (defun load-x (file)
   (load (f-expand file user-emacs-directory)))
 
-(let ((default-directory user-emacs-directory))
+;(let ((default-directory user-emacs-directory))
 ;  (load-x "defuns")
 ;  (load-x "misc")
 ;  (load-x "local")
-  (when (eq system-type 'darwin)
-    (load-x "osx")))
+;  (when (eq system-type 'darwin)
+;    (load-x "osx"))
+;)
 
 
 ;; Use packages
@@ -92,16 +93,17 @@
 
 ;; Remember file positions
 (use-package saveplace
-  :config ((setq-default save-place t)
-           (setq save-place-file (expand-file-name ".places" user-emacs-directory)))
+  :config (progn
+            (setq-default save-place t)
+            (setq save-place-file (expand-file-name ".places" user-emacs-directory))))
 
 ;; Moving between windows
 (use-package windmove
   :config (windmove-default-keybindings 'shift))
 
 ;; Adding cygwin to exec-path
-(if (file-directory-p "c:/cygwin/bin")
-  (add-to-list 'exec-path "c:/cygwin/bin"))
+;(if (file-directory-p "c:/cygwin/bin")
+;  (add-to-list 'exec-path "c:/cygwin/bin"))
 
 ;; Use bash as shell
 (setq shell-file-name "bash")
