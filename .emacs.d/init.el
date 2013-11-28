@@ -101,10 +101,6 @@
 (use-package windmove
   :config (windmove-default-keybindings 'shift))
 
-;; Adding cygwin to exec-path
-;(if (file-directory-p "c:/cygwin/bin")
-;  (add-to-list 'exec-path "c:/cygwin/bin"))
-
 ;; Use bash as shell
 (setq shell-file-name "bash")
 (setq explicit-shell-file-name shell-file-name)
@@ -233,3 +229,4 @@ by using nxml's indentation rules."
                   (interactive)
                   (join-line -1)))
 
+(put 'narrow-to-region 'disabled nil)
