@@ -32,6 +32,11 @@
  
 ;;; Code:
  
+
+
+;; json.el supports only ascii chars. Must add more unicode support
+
+
 (require 'json)
  
 (defun json-reformat:indent (level)

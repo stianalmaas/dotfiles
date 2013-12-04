@@ -1,5 +1,5 @@
-(source "melpa" "http://melpa.milkbox.net/packages/")
-(source "marmalade" "http://marmalade-repo.org/packages/")
+(source melpa)
+(source marmalade)
 
 (depends-on "ace-jump-mode")
 (depends-on "auto-complete")
@@ -8,6 +8,7 @@
 (depends-on "expand-region")
 (depends-on "fuzzy")
 (depends-on "git-gutter-fringe")
+(depends-on "ido-vertical-mode")
 (depends-on "js3-mode")
 (depends-on "json-mode")
 (depends-on "magit")
@@ -17,5 +18,6 @@
 (depends-on "smex")
 (depends-on "solarized-theme")
 (depends-on "use-package")
+(depends-on "visual-regexp")
 (depends-on "yasnippet")
 (depends-on "zenburn-theme")
