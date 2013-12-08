@@ -113,6 +113,11 @@
 ;; Load theme
 (load-theme 'tango-dark t)
 
+;; Guide-key for helping with key sequences
+(use-package guide-key
+  :init (guide-key-mode 1)
+  :bind ("C-x r" . guide-key/guide-key-sequence))
+
 ;; Customize-* file
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
