@@ -3,6 +3,7 @@
 
 (depends-on "ace-jump-mode")
 (depends-on "auto-complete")
+(depends-on "bash-completion")
 (depends-on "better-defaults")
 (depends-on "clojure-snippets")
 (depends-on "clojure-test-mode")
@@ -13,7 +14,7 @@
 (depends-on "git-gutter-fringe")
 (depends-on "guide-key")
 (depends-on "ido-vertical-mode")
-(depends-on "js3-mode")
+(depends-on "js2-mode")
 (depends-on "json-mode")
 (depends-on "magit")
 (depends-on "multiple-cursors")

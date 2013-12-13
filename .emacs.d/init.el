@@ -114,9 +114,9 @@
 (load-theme 'tango-dark t)
 
 ;; Guide-key for helping with key sequences
-(use-package guide-key
-  :init (guide-key-mode 1)
-  :bind ("C-x r" . guide-key/guide-key-sequence))
+;;(use-package guide-key
+;;  :init (setq guide-key-mode 1)
+;;  :bind ("C-x r" . guide-key/guide-key-sequence))
 
 ;; Customize-* file
 (setq custom-file "~/.emacs.d/custom.el")
@@ -234,4 +234,16 @@ by using nxml's indentation rules."
                   (interactive)
                   (join-line -1)))
 
+;; bash tab completion
+(autoload 'bash-completion-dynamic-complete 
+  "bash-completion"
+  "BASH completion hook")
+(add-hook 'shell-dynamic-complete-functions
+  'bash-completion-dynamic-complete)
+(add-hook 'shell-command-complete-functions
+  'bash-completion-dynamic-complete)
+
+
+
+;; Allow narrow-to-region, I can handle it!
 (put 'narrow-to-region 'disabled nil)
