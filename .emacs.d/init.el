@@ -243,7 +243,9 @@ by using nxml's indentation rules."
 (add-hook 'shell-command-complete-functions
   'bash-completion-dynamic-complete)
 
-
+;; Using smartparens to show matching delimiters
+(smartparens-global-mode t)
+(show-smartparens-global-mode +1)
 
 ;; Allow narrow-to-region, I can handle it!
 (put 'narrow-to-region 'disabled nil)
