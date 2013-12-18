@@ -23,13 +23,13 @@
 (defun load-x (file)
   (load (f-expand file user-emacs-directory)))
 
-;(let ((default-directory user-emacs-directory))
+(let ((default-directory user-emacs-directory))
 ;  (load-x "defuns")
 ;  (load-x "misc")
 ;  (load-x "local")
-;  (when (eq system-type 'darwin)
-;    (load-x "osx"))
-;)
+  (when (eq system-type 'darwin)
+    (load-x "osx"))
+)
 
 
 ;; Use packages
