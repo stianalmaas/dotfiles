@@ -121,6 +121,11 @@
 (guide-key-mode 1)
 (setq guide-key/popup-window-position 'bottom)
 
+;; Visual Regexp. Finally...
+(use-package visual-regexp
+  :bind (("C-c r" . vr/replace)
+         ("C-c q" . vr/query-replace)))
+
 ;; Customize-* file
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
