@@ -114,9 +114,12 @@
 (load-theme 'tango-dark t)
 
 ;; Guide-key for helping with key sequences
-;;(use-package guide-key
-;;  :init (setq guide-key-mode 1)
-;;  :bind ("C-x r" . guide-key/guide-key-sequence))
+(use-package guide-key
+  :init (setq guide-key-mode 1))
+(setq guide-key/guide-key-sequence '("C-x"))
+(setq guide-key/recursive-key-sequence-flag t)
+(guide-key-mode 1)
+(setq guide-key/popup-window-position 'bottom)
 
 ;; Customize-* file
 (setq custom-file "~/.emacs.d/custom.el")
