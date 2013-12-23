@@ -1,5 +1,5 @@
 ;; Emacs restart
-
+(setq debug-on-error t)
 ;; Turn off mouse interface early in startup to avoid momentary display
 (if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
 (if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
@@ -153,6 +153,21 @@
 
 (global-set-key (kbd "<C-return>") 'open-line-below)
 (global-set-key (kbd "<C-S-return>") 'open-line-above)
+
+
+;; Setup for on-the-fly syntax checking
+;; First clone this repo : https://github.com/davidmiller/lintnode.git
+;; Inside that repo run : npm install express connect-form haml underscore
+(add-to-list 'load-path "C:\\utv\\repos\\lintnode")
+(require 'flymake-jslint)
+;; Make sure we can find the lintnode executable
+(setq lintnode-location "C:\\utv\\repos\\lintnode")
+;; JSLint can be... opinionated
+(setq lintnode-jslint-excludes (list 'nomen 'undef 'plusplus 'onevar 'white))
+;; Start the server when we first open a js file and start checking
+(add-hook 'js-mode-hook
+          (lambda ()
+            (lintnode-hook)))
 
 
 
