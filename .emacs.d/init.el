@@ -121,6 +121,10 @@
 (guide-key-mode 1)
 (setq guide-key/popup-window-position 'bottom)
 
+;; Discover.el, also for helping with key sequences
+(require 'discover)
+(global-discover-mode 1)
+
 ;; Visual Regexp. Finally...
 (use-package visual-regexp
   :bind (("C-c r" . vr/replace)
@@ -158,16 +162,16 @@
 ;; Setup for on-the-fly syntax checking
 ;; First clone this repo : https://github.com/davidmiller/lintnode.git
 ;; Inside that repo run : npm install express connect-form haml underscore
-(add-to-list 'load-path "C:\\utv\\repos\\lintnode")
-(require 'flymake-jslint)
+;;(add-to-list 'load-path "C:\\utv\\repos\\lintnode")
+;;(require 'flymake-jslint)
 ;; Make sure we can find the lintnode executable
-(setq lintnode-location "C:\\utv\\repos\\lintnode")
+;;(setq lintnode-location "C:\\utv\\repos\\lintnode")
 ;; JSLint can be... opinionated
-(setq lintnode-jslint-excludes (list 'nomen 'undef 'plusplus 'onevar 'white))
+;;(setq lintnode-jslint-excludes (list 'nomen 'undef 'plusplus 'onevar 'white))
 ;; Start the server when we first open a js file and start checking
-(add-hook 'js-mode-hook
-          (lambda ()
-            (lintnode-hook)))
+;; (add-hook 'js-mode-hook
+;;           (lambda ()
+;;             (lintnode-hook)))
 
 
 
