@@ -1,3 +1,6 @@
+;; 
+(package-initialize)
+
 ;; Emacs restart
 (setq debug-on-error t)
 ;; Turn off mouse interface early in startup to avoid momentary display
@@ -8,7 +11,7 @@
 ;; No splash screen
 (setq inhibit-startup-message t)
 
-;; Load local stuff
+;; load local stuff
 (load "~/.emacs.d/local.el")
 
 ;; Cask and Pallet package management
@@ -60,12 +63,13 @@
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))
 
 ;; Autocomplete
-(require 'fuzzy)
-(require 'auto-complete)
-(setq ac-auto-show-menu t
-      ac-quick-help-delay 0.5
-      ac-use-fuzzy t)
-(global-auto-complete-mode +1)
+(add-hook 'after-init-hook 'global-company-mode)
+;; (require 'fuzzy)
+;; (require 'auto-complete)                
+;; (setq ac-auto-show-menu t
+;;       ac-quick-help-delay 0.5
+;;       ac-use-fuzzy t)
+;; (global-auto-complete-mode +1)
 
 ;; Ace jump for navigation
 (use-package ace-jump-mode
