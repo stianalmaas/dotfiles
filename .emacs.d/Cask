@@ -1,5 +1,5 @@
 (source marmalade)
-(source melpa)
+; (source melpa)                  
 
 (depends-on "ace-jump-mode")
 (depends-on "auto-complete")
