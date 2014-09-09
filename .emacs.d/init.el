@@ -93,7 +93,8 @@
 
 ;; Expand region like IntelliJ
 (use-package expand-region
-  :bind ("C-=" . er/expand-region))
+  :bind (("C-'" . er/expand-region)
+         ("C-*" . er/contract-region)))
 
 ;; Remember file positions
 (use-package saveplace
