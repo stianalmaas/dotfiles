@@ -93,7 +93,8 @@
 
 ;; Expand region like IntelliJ
 (use-package expand-region
-  :bind (("C-'" . er/expand-region)
+  :bind (("C-'" . er/expand-region) ;; For Windows
+         ("C-@". er/expand-region)  ;; For Mac
          ("C-*" . er/contract-region)))
 
 ;; Remember file positions
