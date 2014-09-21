@@ -147,6 +147,17 @@
 (setq global-auto-revert-non-file-buffers t)
 (setq auto-revert-verbose nil)
 
+;; Shortcut for duplicating current line - http://stackoverflow.com/questions/88399/how-do-i-duplicate-a-whole-line-in-emacs
+(defun duplicate-line()
+  (interactive)
+  (move-beginning-of-line 1)
+  (kill-line)
+  (yank)
+  (newline)
+  (yank)
+)
+(global-set-key (kbd "C-S-d") 'duplicate-line)
+
 ;; Smarter way of opening new lines, like in http://blog.pluralsight.com/commanding-your-text-editor
 (defun open-line-below ()
   (interactive)
