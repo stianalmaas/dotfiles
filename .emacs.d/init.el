@@ -1,5 +1,14 @@
-;; 
+;; setup packages 
 (package-initialize)
+
+;; Setup DNB proxy
+(setq url-proxy-services
+      '(("no_proxy" . "^\\(localhost\\|10.*\\)")
+	("http" . "proxy:88")
+	("https" . "proxy:88")))
+
+(setq user-full-name "Stian Lammio Almås"
+      user-mail-address "stian.almaas@gmail.com")
 
 ;; Emacs restart
 (setq debug-on-error t)
@@ -11,46 +20,115 @@
 ;; No splash screen
 (setq inhibit-startup-message t)
 
-;; load local stuff
-(load "~/.emacs.d/local.el")
+;; Setting up repositories for packages
+(add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
+(unless (assoc-default "melpa" package-archives)
+  (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
+  (package-refresh-contents))
 
-;; Cask and Pallet package management
-(require 'cask "~/.cask/cask.el")
-(cask-initialize)
-(require 'pallet)
-
-(require 'f)
+;; Set up packages with use-package
+(add-to-list 'load-path "~/.emacs.d/lisp/")
+(unless (package-installed-p 'use-package)
+  (package-install 'use-package))
+(setq use-package-verbose t)
 (require 'use-package)
-
-;; Loading files
-(defun load-x (file)
-  (load (f-expand file user-emacs-directory)))
-
-(let ((default-directory user-emacs-directory))
-;  (load-x "defuns")
-;  (load-x "misc")
-;  (load-x "local")
-  (when (eq system-type 'darwin)
-    (load-x "osx"))
-)
+(use-package auto-compile
+  :ensure t
+  :config (auto-compile-on-load-mode))
 
 
-;; Use packages
+;; load local stuff
+;; (load "~/.emacs.d/local.el")
+
+;; Move file backups to one directory
+(setq backup-directory-alist '(("." . "~/backups")))
+
+;; Highlight current line
+(global-hl-line-mode t)
 
 ;; Better defaults, by technomancy
-(require 'better-defaults)
+(use-package better-defaults)
 
-;; Fringe decoration for Git
-(when (window-system)
-  (require 'git-gutter-fringe))
+;; Helm
+(use-package helm
+             :ensure t
+             :diminish helm-mode
+             :init
+             (progn
+               (require 'helm-config)
+               (setq helm-candidate-number-list 100)
+               ;; The default "C-x c" is quite close to "C-x C-c", which quits Emacs.
+               ;; Changed to "C-c h". Note: We must set "C-c h" globally, because we
+               ;; cannot change `helm-command-prefix-key' once `helm-config' is loaded.
+               (global-set-key (kbd "C-c h") 'helm-command-prefix)
+               (global-unset-key (kbd "C-x c"))
 
-(global-git-gutter-mode +1)
+
+               (when (executable-find "curl")
+                 (setq helm-google-suggest-use-curl-p t))
+
+               (setq helm-split-window-in-side-p           t ; open helm buffer inside current window, not occupy whole other window
+                     helm-buffers-fuzzy-matching           t ; fuzzy matching buffer names when non--nil
+                     helm-move-to-line-cycle-in-source     t ; move to end or beginning of source when reaching top or bottom of source.
+                     helm-ff-search-library-in-sexp        t ; search for library in `require' and `declare-function' sexp.
+                     helm-scroll-amount                    8 ; scroll 8 lines other window using M-<next>/M-<prior>
+                     helm-ff-file-name-history-use-recentf t)
+
+               (setq helm-idle-delay 0.0 ; update fast sources immediately (doesn't).
+                     helm-input-idle-delay 0.01  ; this actually updates things reeeelatively quickly.
+                     helm-yas-display-key-on-candidate t
+                     helm-quick-update t
+                     helm-M-x-requires-pattern nil
+                     helm-ff-skip-boring-files t)
+
+               (helm-mode))
+             :config
+             (progn
+               (define-key helm-map (kbd "<tab>") 'helm-execute-persistent-action) ; rebind tab to run persistent action
+               (define-key helm-map (kbd "C-i") 'helm-execute-persistent-action) ; make TAB works in terminal
+               (define-key helm-map (kbd "C-z")  'helm-select-action) ; list actions using C-z
+               )
+             :bind (("C-x b" . helm-mini)
+                    ("C-h a" . helm-apropos)
+                    ("C-x C-b" . helm-buffers-list)
+                    ("C-x b" . helm-buffers-list)
+                    ("C-x C-f" . helm-find-files)
+                    ("M-y" . helm-show-kill-ring)
+                    ("M-x" . helm-M-x)
+                    ("C-x c o" . helm-occur)
+                    ("C-x c s" . helm-swoop)
+                    ("C-x c y" . helm-yas-complete)
+                    ("C-x c Y" . helm-yas-create-snippet-on-region)
+                    ("C-x c SPC" . helm-all-mark-rings))
+             )
+(ido-mode -1)
+
+;; Load theme
+;; (maybe-install-and-require 'afternoon-theme)
+;; (load-theme 'afternoon t)
+(use-package monokai-theme
+  :ensure t
+  :init (load-theme 'monokai t))
+
+
 (setq-default indicate-buffer-boundaries 'left)
 (setq-default indicate-empty-lines +1)
 
-;; Smart mode line
-(require 'smart-mode-line)
-(sml/setup)
+;; Better title bar
+(setq frame-title-format
+      '("Current: " (buffer-file-name "%f"
+                                      (dired-directory dired-directory "%b"))))
+
+
+;; ;; Smart mode line
+(use-package smart-mode-line
+             :defer t
+             :config
+             (progn
+               (setq sml/no-confirm-load-theme t)
+               (sml/setup)
+               (sml/apply-theme 'automatic)
+               ))
 
 ;; Make scrolling smoother when using keyboard
 (setq redisplay-dont-pause t
@@ -62,28 +140,87 @@
 (setq mouse-wheel-follow-mouse 't)
 (setq mouse-wheel-scroll-amount '(1 ((shift) . 1)))
 
-;; Autocomplete
-(add-hook 'after-init-hook 'global-company-mode)
+;; Winmode
+(windmove-default-keybindings)
+(global-set-key (kbd "C-c <left>")  'windmove-left)
+(global-set-key (kbd "C-c <right>") 'windmove-right)
+(global-set-key (kbd "C-c <up>")    'windmove-up)
+(global-set-key (kbd "C-c <down>")  'windmove-down)
+
+;; Remove trailing whitespace before saving
+(add-hook 'before-save-hook
+	  'delete-trailing-whitespace)
+
+;; Automatically revert files that are changed on disk
+(global-auto-revert-mode)
+
+;; Ask for Y or N instead of Yes or No
+(defalias 'yes-or-no-p 'y-or-n-p)
+
+;; ;; Agressive indent mode
+(use-package agressive-indent
+             :defer t
+             :config
+             (progn
+               (add-hook 'clojure-mode-hook #'aggressive-indent-mode)
+               (add-hook 'emacs-lisp-mode-hook #'aggressive-indent-mode)
+               (add-hook 'css-mode-hook #'aggressive-indent-mode)
+               (add-hook 'js2-mode-hook #'aggressive-indent-mode))
+             )
+
+;; ;; Company Autocomplete
+(use-package company
+             :ensure t
+             :config
+             (add-hook 'after-init-hook 'global-company-mode))
+
+;; ;; web-mode for html and css
+;; ;; js2-mode for Javascript
+(use-package web-mode
+             :ensure t
+             :defer t
+             :mode "\\.html?\\'"
+             :config
+             (progn
+               (setq web-mode-enable-current-element-highlight t)
+               (setq web-mode-ac-sources-alist
+                     '(("css" . (ac-source-css-property))
+                       ("html" . (ac-source-words-in-buffer ac-source-abbrev))))
+               (add-hook 'web-mode-hook (lambda ()
+                                          (setq web-mode-markup-indent-offset 2)
+                                          (setq web-mode-css-indent-offset 2)
+                                          (setq web-mode-code-indent-offset 2)))
+               ))
+
+(use-package js2-mode
+             :ensure t
+             :defer t
+             :commands js2-mode
+             :mode "\\.js\\'")
+
 ;; (require 'fuzzy)
-;; (require 'auto-complete)                
+;; (require 'auto-complete)
 ;; (setq ac-auto-show-menu t
 ;;       ac-quick-help-delay 0.5
 ;;       ac-use-fuzzy t)
 ;; (global-auto-complete-mode +1)
 
+;; Echo keystrokes in minibuffer
+(setq echo-keystroke 0.1)
+
 ;; Ace jump for navigation
-(use-package ace-jump-mode
-  :bind ("C-c SPC" . ace-jump-mode))
+;; (use-package ace-jump-mode
+;;  :bind ("C-c SPC" . ace-jump-mode))
 
 ;; Smex for fuzzy matching in M-x
-(use-package smex
-  :init (smex-initialize)
-  :bind ("M-x" . smex))
+;; (use-package smex
+;;   :init (smex-initialize)
+;;   :bind ("M-x" . smex))
 
 ;; Multiple cursors like Sublime Text
-(use-package multiple-cursors
-  :bind (("C->" . mc/mark-next-like-this)
-         ("C-<" . mc/mark-previous-like-this)))
+;; (use-package multiple-cursors
+;;   :bind (("C->" . mc/mark-next-like-this)
+;;          ("C-<" . mc/mark-previous-like-this)))
 
 ;; Drag stuff to move pieces of text intuitively
 (use-package drag-stuff
@@ -92,10 +229,10 @@
          ("M-P" . drag-stuff-up)))
 
 ;; Expand region like IntelliJ
-(use-package expand-region
-  :bind (("C-'" . er/expand-region) ;; For Windows
-         ("C-@". er/expand-region)  ;; For Mac
-         ("C-*" . er/contract-region)))
+;; (use-package expand-region
+;;   :bind (("C-'" . er/expand-region) ;; For Windows
+;;          ("C-@". er/expand-region)  ;; For Mac
+;;          ("C-*" . er/contract-region)))
 
 ;; Remember file positions
 (use-package saveplace
@@ -104,32 +241,29 @@
             (setq save-place-file (expand-file-name ".places" user-emacs-directory))))
 
 ;; Moving between windows
-(use-package windmove
-  :config (windmove-default-keybindings 'shift))
+;; (use-package windmove
+;;   :config (windmove-default-keybindings 'shift))
 
 ;; Use bash as shell
-(setq shell-file-name "bash")
-(setq explicit-shell-file-name shell-file-name)
+;; (setq shell-file-name "bash")
+;; (setq explicit-shell-file-name shell-file-name)
 
 ;; Tramp for remote editing
-(require 'tramp)
-(setq tramp-default-method "sshx")
-(setq tramp-debug-buffer t)
-
-;; Load theme
-(load-theme 'tango-dark t)
+;; (require 'tramp)
+;; (setq tramp-default-method "sshx")
+;; (setq tramp-debug-buffer t)
 
 ;; Guide-key for helping with key sequences
-(use-package guide-key
-  :init (setq guide-key-mode 1))
-(setq guide-key/guide-key-sequence '("C-x"))
-(setq guide-key/recursive-key-sequence-flag t)
-(guide-key-mode 1)
-(setq guide-key/popup-window-position 'bottom)
+;; (use-package guide-key
+;;   :init (setq guide-key-mode 1))
+;; (setq guide-key/guide-key-sequence '("C-x"))
+;; (setq guide-key/recursive-key-sequence-flag t)
+;; (guide-key-mode 1)
+;; (setq guide-key/popup-window-position 'bottom)
 
 ;; Discover.el, also for helping with key sequences
-(require 'discover)
-(global-discover-mode 1)
+;; (require 'discover)
+;; (global-discover-mode 1)
 
 ;; Visual Regexp. Finally...
 (use-package visual-regexp
@@ -141,11 +275,18 @@
 (load custom-file)
 
 ;; Auto refresh buffers
-(global-auto-revert-mode 1)
+;; (global-auto-revert-mode 1)
 
 ;; Also auto refresh dired, but be quiet about it
 (setq global-auto-revert-non-file-buffers t)
 (setq auto-revert-verbose nil)
+
+
+;; Which-key for help
+(use-package which-key
+  :diminish which-key-mode
+  :config (which-key-mode))
+
 
 ;; Shortcut for duplicating current line - http://stackoverflow.com/questions/88399/how-do-i-duplicate-a-whole-line-in-emacs
 (defun duplicate-line()
@@ -201,6 +342,7 @@ there's a region, all lines that region covers will be duplicated."
 
 ;; Setup for on-the-fly syntax checking
 ;; First clone this repo : https://github.com/davidmiller/lintnode.git
+
 ;; Inside that repo run : npm install express connect-form haml underscore
 ;;(add-to-list 'load-path "C:\\utv\\repos\\lintnode")
 ;;(require 'flymake-jslint)
@@ -227,10 +369,11 @@ by using nxml's indentation rules."
   (save-excursion
     (nxml-mode)
     (goto-char begin)
-    (while (search-forward-regexp "\>[ \\t]*\<" nil t) 
+    (while (search-forward-regexp "\>[ \\t]*\<" nil t)
       (backward-char) (insert "\n") (setq end (1+ end)))
     (indent-region begin end))
   (message "Ah, much better!"))
+(global-set-key (kbd "<C-c x>") 'sla-pretty-print-xml-region)
 
 ;; Formatting for JSON
 (load "~/.emacs.d/json-reformat.el")
@@ -302,7 +445,7 @@ by using nxml's indentation rules."
                   (join-line -1)))
 
 ;; bash tab completion
-(autoload 'bash-completion-dynamic-complete 
+(autoload 'bash-completion-dynamic-complete
   "bash-completion"
   "BASH completion hook")
 (add-hook 'shell-dynamic-complete-functions
@@ -311,8 +454,8 @@ by using nxml's indentation rules."
   'bash-completion-dynamic-complete)
 
 ;; Using smartparens to show matching delimiters
-(smartparens-global-mode t)
-(show-smartparens-global-mode +1)
+;; (smartparens-global-mode t)
+;; (show-smartparens-global-mode +1)
 
 ;; Allow narrow-to-region, I can handle it!
-(put 'narrow-to-region 'disabled nil)
+;; (put 'narrow-to-region 'disabled nil)
